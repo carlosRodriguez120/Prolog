@@ -84,7 +84,7 @@ binario(1,'1').
 binario(X,Y):- X>1 ,X1 is X mod 2, X2 is X//2,
     binario(X2,Y1), atom_concat(Y1,X1,Y).
 
-% ------------------------BINARIO A DECIMAL------------------------
+
 
 % ----------------------POTENCIA RECURSIVA----------------------
 
@@ -96,7 +96,7 @@ pruebas(0,_,0).
 pruebas(N,C,R):- N>0,N1 is N-1, C1 is C+1,pruebas(N1,C1,R1),R is R1+N+C1.
 
 
-
+% ------------------------BINARIO A DECIMAL------------------------
 binarioR(N1,N2,N3,N4,N5,N6,N7,R):-
                             R1 is N1*2^6,
                             R2 is N2*2^5,
@@ -133,17 +133,15 @@ contar([],0).
 contar([_|T],Total):- contar(T,Aux), Total is Aux +1.
 
 
-
-
-
-
-
-
 %-MOSTRAR EL PRIMER DATO DE UNA LISTA ANIDADA
 
 caLista([],R):-R=false.
 caLista([H|_],R):- caLista(H,R).
 caLista([H|_],H).
+
+%-AGREGAR UN DATO A UNA LISTA
+
+
 
 
 

@@ -139,7 +139,15 @@ caLista([],R):-R=false.
 caLista([H|_],R):- caLista(H,R).
 caLista([H|_],H).
 
-%-AGREGAR UN DATO A UNA LISTA
+
+%-SUMAR DATOS DE UNA LISTA-
+sumaLista([],0).
+sumaLista([H|T],R):- sumaLista(T,R1), R is R1+H.
+
+
+%- AGREGAR AL INICIO-
+agregaInicio(I,C,R):-R is [I|C].
+
 
 
 

@@ -1,0 +1,77 @@
+introduccion a los paradicmas de programacion
+paradigmas en la historia
+como nos afectan los algoritmis de programacion
+historia de la programacion
+historia DE LOS computadores
+_________________________
+tipos de paradigmas
+principales caracteristicas 
+ventajas y desventajas
+programacion logica
+introduccion , como funciona}
+que se puede hacer representacion de hechios
+sintaxis
+variables
+listas
+ 
+paradigmas orientado a la web
+introduccion a lo nuevos paradogmas 
+programacion web
+web services 
+frameworks
+
+
+programacion orientada a objetos , repasos
+programacion funcional
+introduccion 
+empleo en la programascion
+lamda
+sintaxis de la programacion funcional
+
+
+____________________________________________________________________________________________________________________________
+que es un paradigma de programacion ?
+un estilo o modo de prohramacion que resuleve problemas de orden computacional
+
+___________________________________________-
+como nos afectan los paradicmas de programacion
+
+
+
+historiA DE LA COMOUTACION
+
+____________________________________________________________________________________________________________________________
+PARADIGMAS DE PROGRAMACION 
+DIFERENCIAS ENTRRE LOS PRINCIPALES PARADIGMAS DE LA PROGRAMACION
+
+introduccion:
+algunos leguajes de programacion pueden soportar multiples paradicmas de programacion. por ejemplo, C++
+puede ser usado para desarroollar sofware , usado un modelo de programacion puramente poo o bien puramete estructurada
+en casos como en C++ somos los desarrolladores los que decidimos que utilizar .
+
+por lo tanto , algunos leguajes han sido diseñados para soportar un unico leguaje de programacion, es el caso smalltalk, que soporta
+unicamente POO o haskell que soporta la programacion funcional.
+algunos paradigas prohiben el uso de sirertos mecanimos o tecnicas, por ejemplo:
+e la programacio funcional se elimina el uso del efecto secundario mietras que en la programacion estructurada se desaprueba e incluso 
+se elimina de la sentencia go to.
+
+es realmente comun el diseño de lenguajes que soporten diferentes paradigmade programascion, estos lenguajes sion aquellos que soportan al mennos
+dos paradigmas de programacion. 
+1. skala. es imoerativo , orientado a objetos, funcional, geerico, y concurrente.
+2. Erlang. funcional concurrente distribuido.
+3. perl. inperativo, enfocado a objestos y funcional 
+4. php. imoerativo, enfocado a objestos y funcional
+5.javascript, imperativo objetos y funcional.
+6. java : imperativo, objetos , reflexivo y lamda
+7, pytho y ruby : imperativo, objetos , reflexivo y lamda
+8. c++: imperativo, objetos , reflexivo y lamda
+9. c# : imperativo, objetos , reflexivo , lamda , generico
+
+existe lenguajes como oz que soportan 9 paradigmas de programacion
+en la programacion imperativa se describen las sentencias que modifican el estado de un programa (efecto secundario )
+e muchos setidos la programacion imperativa es la forma natural para las cpus que se basan en ese paradigma al nivel mas basico.
+en este paradigma se espresa como debe solucionarse un pronlema especificando una secuecia de acciones  a realizar a travez de uno o mas procesos
+denomidanos subrutinas o funciones dentro de esta categoria se engloba la programacion estructurada , que restringe el uso de la sentencia GO to
+la programacion modular y la programacion orientada a objestos ha permitido mejorar la mantenibilidad y  calidad de los programas imperativos
+
+

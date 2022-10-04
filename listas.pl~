@@ -1,0 +1,3 @@
+caLista([],R):-R=false.
+caLista([H|_],H).
+caLista([H|_],R):-caLista(H,R).
